@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <i class="fa fa-home fa-3x"></i> 
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div class="home" id="home">
+
+    </div>
+    <div class="box-tittle">
+       <span class="upper">Welcome to </span> <br>
+       <span class="lower">Design House</span>
+       <button class="get-started">Get Start</button>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/ww.bmp"  alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h3>About us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum, reprehenderit itaque animi soluta inventore! Distinctio voluptates est nulla nemo corporis? Quam esse ullam incidunt velit quia consectetur maiores. Consectetur, quibusdam saepe aperiam animi rem necessitatibus inventore porro non quia cum voluptates vel fugit culpa ut reprehenderit placeat velit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi reprehenderit asperiores qui omnis molestiae ad adipisci, consectetur, aliquam, fugit voluptate cupiditate cumque blanditiis ullam ratione quis. Ea veniam laborum obcaecati eos consequuntur enim ut dolores, earum nihil doloribus at iure.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <h1>Our Design</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <span>Mansion</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed illo aperiam corrupti, impedit molestiae ullam voluptas explicabo! Reiciendis.</p>
+                    <span>Farm House</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magni neque repellat necessitatibus laboriosam libero suscipit recusandae.</p>
+                    <span>Cabin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla placeat voluptatum id temporibus ullam totam.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/tyhu.bmp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+       <div class="container">
+            <h1>Contact us</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form action="" method="post" class="shadow">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="">Message</label>
+                                <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button>Send Messeges</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box shadow">
+                        <span><i class="fa fa-map-marker fa-3x pt-2"></i></span>
+                        <p class="infor">Diven plaza  6<sup>th</sup> <br> Floor Nairobi</p>
+                        <span><i class="fa fa-envelope fa-3x pt-2"></i></span>
+                        <p class="infor">Designhouse235@gmail.com</p>
+                        <span><i class="fa fa-mobile fa-3x pt-2"></i></span>
+                        <p class="infor">+254 769 747 803</p>
+                        <span><i class="fa fa-clock-o fa-3x pt-2"></i></span>
+                        <p class="infor">Open 24hours <br> monday -friday</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <footer>
+        <span><i class="fa fa-home fa-3x"></i></span>
+        <span class="company-logo" id="cnm1"></span>
+        <span class="company-logo-" id="cnm2"></span>
+        <span class="developer" id="develop-std"> </span>
+        <div class="social-media">
+            <span><i class="fa fa-facebook"></i></span>
+            <span><i class="fa fa-envelope"></i></span>
+            <span><i class="fa fa-instagram"></i></span>
+            <span><i class="fa fa-whatsapp"></i></span>
+        </div>
+    </footer>
+    <script>
+    let companylogo="Design";
+    let companylogo$="House";
+
+    document.getElementById("cnm1").innerHTML=companylogo;
+    document.getElementById("cnm2").innerHTML=companylogo$
+
+    let developer="Designed by Junior Softwere Engineer Stephen Muema";
+    document.getElementById ("develop-std").innerHTML=developer;       
+
+    </script>
+</body>
+</html>
