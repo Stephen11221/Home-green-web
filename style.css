@@ -122,7 +122,7 @@ header ul li a:hover{
 .box{
     margin-top: 60px;
     margin-left: 30px;
-    width: 400px;
+    width: 500px;
     cursor: pointer;
     padding: 10px 28px;
     border-style: dotted;
@@ -161,7 +161,7 @@ footer .social-media{
     margin-left: 90%;
 }
 footer .social-media span{
-    padding-left: 8px;
+    padding-left: 7px;
     cursor: pointer;
 }
 @media screen  and (max-width: 800px){
@@ -178,10 +178,37 @@ footer .social-media span{
         margin-top: -360px;
         font-size: 0.7rem;
     }
-    .contact .box{
-        width: 500px;
+    .contact h1{
+        margin-top: 50px;
+        width: 156px;
+        cursor: pointer;
+        border: dotted;
+        margin-left: 150px;
     }
-    
+    .contact form{
+        margin-top: 30px;
+        border: none;
+        width: 380px;
+        height: 55vh;
+        margin-left: 50px;
+    }
+    .contact form button{
+
+        font-size: 0.7rem;
+        margin-left: 100px;
+    }
+
+    .contact .box{
+        width: 400px;
+        background: whitesmoke;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 14px;
+    }
+    .contact .box span{
+        font-size: 10px;
+        color: darkgreen;
+    }
     
     footer .developer{
         font-size: 0.7rem;
@@ -189,7 +216,7 @@ footer .social-media span{
         margin-left: 60px;
     }
     .social-media{
-     font-size: 0.5rem;
-     padding-left: -20px;
+       font-size: 9px;
+     padding-left: -3px;
     }
 }
