@@ -1,59 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     width: 100%;
     height: 60px;
     background: green;
     color: white;
 }
-.house{
+
+.house {
     margin-left: 30px;
 }
-.logos{
+
+.logos {
     margin-top: -18px;
     margin-left: 10px;
 }
-header ul{
+
+header ul {
     margin-top: -30px;
     float: right;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     padding: 10px 10px;
     float: left;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     color: white;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     color: azure;
     text-decoration: none;
 }
-.home{
+
+.home {
     width: 100%;
     height: 70vh;
     background: url("images/qq.bmp");
 }
-.box-tittle{
+
+.box-tittle {
     position: relative;
     background: green;
     width: 340px;
-   margin-left: 50px;
+    margin-left: 50px;
     margin-top: -280px;
     color: white;
 }
-.box-tittle .upper{
+
+.box-tittle .upper {
     margin-left: 40px;
     font-size: 40px;
 }
-.box-tittle .lower{
+
+.box-tittle .lower {
     margin-left: 20px;
     font-size: 40px;
 }
-.get-started{
+
+.get-started {
     width: 150px;
     outline: none;
     color: green;
@@ -63,17 +75,21 @@ header ul li a:hover{
     margin-top: 50px;
     background: white;
 }
-.about{
+
+.about {
     margin-top: 120px;
 }
-.about h3{
+
+.about h3 {
     margin-left: 50px;
     color: green;
 }
-.about img{
+
+.about img {
     width: 400px;
 }
-.read-more{
+
+.read-more {
     background: green;
     color: white;
     border: none;
@@ -84,42 +100,50 @@ header ul li a:hover{
     width: 150px;
 
 }
-.services h1{
+
+.services h1 {
     margin-left: 10px;
     margin-top: 40px;
     color: green;
 }
-.services img{
+
+.services img {
     width: 450px;
 }
-.services span{
+
+.services span {
     font-weight: bold;
 }
-.services p{
+
+.services p {
     margin-left: 20px;
 }
-.contact h1{
+
+.contact h1 {
     margin-top: 30px;
     color: green;
 }
-.contact form{
+
+.contact form {
     border-radius: 20px;
     box-shadow: inset;
     margin-top: 60px;
     padding: 20px 10px;
     border-style: groove;
 }
-.contact button{
+
+.contact button {
     outline: none;
     border: none;
     margin-top: 35px;
     border-radius: 40px;
-    padding: 10px 8px ;
+    padding: 10px 8px;
     color: white;
     width: 150px;
     background: green;
 }
-.box{
+
+.box {
     margin-top: 60px;
     margin-left: 30px;
     width: 500px;
@@ -127,96 +151,121 @@ header ul li a:hover{
     padding: 10px 28px;
     border-style: dotted;
 }
-.box:hover{
-    box-shadow:0 0.5rem 1rem rgba(45, 157, 4, 0.5);
-    border-style: none ;
-    width: 420px;
+
+.box:hover {
+    box-shadow: 0 0.5rem 1rem rgba(45, 157, 4, 0.5);
+    border-style: none;
+    width: 480px;
     cursor: pointer;
 }
-.box span{
-    color: green;
+
+.box span {
+    color: rgb(0, 128, 117);
 }
-.box .infor{
+
+.box .infor {
     margin-top: -40px;
     margin-left: 60px;
 }
-footer{
+
+footer {
     background: green;
     width: 100%;
     height: 100px;
     color: white;
     margin-top: 20px;
 }
-footer .company-logo{
+
+footer .company-logo {
     margin-top: -3px;
     position: absolute;
-}    
-footer .developer{
+}
+
+footer .developer {
     position: absolute;
     margin-top: 60px;
     margin-left: 250px;
 }
-footer .social-media{
+
+footer .social-media {
     margin-top: -35px;
     margin-left: 90%;
 }
-footer .social-media span{
+
+footer .social-media span {
     padding-left: 7px;
     cursor: pointer;
 }
-@media screen  and (max-width: 800px){
-    header{
+
+@media screen and (max-width: 720px) {
+    header {
         height: 47px;
         font-size: 0.8rem;
     }
-    header .icon{
+
+    header .icon {
         cursor: pointer;
         margin-left: 10px;
     }
-    .box-tittle{
+
+    .box-tittle {
         position: absolute;
         margin-top: -360px;
         font-size: 0.7rem;
+        border-radius: 3px;
     }
-    .contact h1{
+
+    .box-tittle button {
+        width: 150px;
+        outline: none;
+        height: 50px;
+        margin-top: 50px;
+        border: none;
+    }
+
+    .contact h1 {
         margin-top: 50px;
         width: 156px;
         cursor: pointer;
         border: dotted;
         margin-left: 150px;
     }
-    .contact form{
+
+    .contact form {
         margin-top: 30px;
         border: none;
         width: 380px;
         height: 55vh;
         margin-left: 50px;
     }
-    .contact form button{
+
+    .contact form button {
 
         font-size: 0.7rem;
         margin-left: 100px;
     }
 
-    .contact .box{
+    .contact .box {
         width: 400px;
         background: whitesmoke;
         font-weight: lighter;
         font-style: italic;
         font-size: 14px;
     }
-    .contact .box span{
+
+    .contact .box span {
         font-size: 10px;
         color: darkgreen;
     }
-    
-    footer .developer{
+
+    footer .developer {
         font-size: 0.7rem;
         margin-top: 80px;
         margin-left: 60px;
     }
-    .social-media{
-       font-size: 9px;
-     padding-left: -3px;
+
+    .social-media {
+        font-size: 9px;
+        padding-left: -3px;
     }
 }

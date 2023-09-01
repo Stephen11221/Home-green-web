@@ -28,9 +28,9 @@
 
     </div>
     <div class="box-tittle">
-        <span class="upper">Welcome to </span> <br>
-        <span class="lower">Design House</span>
-        <button class="get-started">Get Start</button>
+        <span class="upper" id="upper"> </span> <br>
+        <span class="lower" id="lower"></span>
+        <button class="get-started" id="get-started">Get Start</button>
     </div>
     <div class="about" id="about">
         <div class="container">
@@ -79,7 +79,7 @@
             <h1>Contact us</h1>
             <div class="row">
                 <div class="col-lg-6">
-                    <form action="" method="post" class="shadow">
+                    <form action="" method="post" class="shadow" id="conduct">
                         <div class="row">
                             <div class="col-lg-6">
                                 <label for="">Name</label>
@@ -126,17 +126,7 @@
             <span><i class="fa fa-whatsapp"></i></span>
         </div>
     </footer>
-    <script>
-        let companylogo = "Design";
-        let companylogo$ = "House";
-
-        document.getElementById("cnm1").innerHTML = companylogo;
-        document.getElementById("cnm2").innerHTML = companylogo$
-
-        let developer = "Designed by Junior Softwere Engineer Stephen Muema";
-        document.getElementById("develop-std").innerHTML = developer;
-
-    </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
